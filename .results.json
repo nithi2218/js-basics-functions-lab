@@ -2,12 +2,12 @@
   "stats": {
     "suites": 5,
     "tests": 13,
-    "passes": 9,
+    "passes": 13,
     "pending": 0,
-    "failures": 4,
-    "start": "2022-03-13T12:23:20.046Z",
-    "end": "2022-03-13T12:23:20.472Z",
-    "duration": 426
+    "failures": 0,
+    "start": "2022-03-14T03:18:57.644Z",
+    "end": "2022-03-14T03:18:58.645Z",
+    "duration": 1001
   },
   "tests": [
     {
@@ -34,53 +34,35 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected NaN to equal 264",
-        "showDiff": true,
-        "actual": "NaN",
-        "expected": "264",
-        "stack": "AssertionError: expected NaN to equal 264\n    at Context.<anonymous> (test/indexTest.js:18:43)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected NaN to equal 2112",
-        "showDiff": true,
-        "actual": "NaN",
-        "expected": "2112",
-        "stack": "AssertionError: expected NaN to equal 2112\n    at Context.<anonymous> (test/indexTest.js:22:43)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "calculates distances below 42nd street",
-      "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected NaN to equal 2112",
-        "showDiff": true,
-        "actual": "NaN",
-        "expected": "2112",
-        "stack": "AssertionError: expected NaN to equal 2112\n    at Context.<anonymous> (test/indexTest.js:26:43)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "returns the distance travelled in feet",
-      "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the distance travelled in feet",
+      "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
@@ -101,22 +83,16 @@
     {
       "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "charges 25 dollars for a distance over 2000 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 0 to equal 25",
-        "showDiff": true,
-        "actual": "0",
-        "expected": "25",
-        "stack": "AssertionError: expected 0 to equal 25\n    at Context.<anonymous> (test/indexTest.js:55:46)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
     {
       "title": "does not allow rides over 2500 feet",
@@ -127,60 +103,7 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected NaN to equal 264",
-        "showDiff": true,
-        "actual": "NaN",
-        "expected": "264",
-        "stack": "AssertionError: expected NaN to equal 264\n    at Context.<anonymous> (test/indexTest.js:18:43)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected NaN to equal 2112",
-        "showDiff": true,
-        "actual": "NaN",
-        "expected": "2112",
-        "stack": "AssertionError: expected NaN to equal 2112\n    at Context.<anonymous> (test/indexTest.js:22:43)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "calculates distances below 42nd street",
-      "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected NaN to equal 2112",
-        "showDiff": true,
-        "actual": "NaN",
-        "expected": "2112",
-        "stack": "AssertionError: expected NaN to equal 2112\n    at Context.<anonymous> (test/indexTest.js:26:43)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "charges 25 dollars for a distance over 2000 feet",
-      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 0 to equal 25",
-        "showDiff": true,
-        "actual": "0",
-        "expected": "25",
-        "stack": "AssertionError: expected 0 to equal 25\n    at Context.<anonymous> (test/indexTest.js:55:46)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns a distance in blocks",
@@ -204,16 +127,37 @@
       "err": {}
     },
     {
-      "title": "returns the distance travelled in feet",
-      "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the distance travelled in feet",
+      "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
@@ -234,7 +178,14 @@
     {
       "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
-      "duration": 0,
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 25 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },

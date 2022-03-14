@@ -10,7 +10,7 @@ const distanceFromHqInBlocks = (block) => {
 }
 
 const distanceFromHqInFeet = (feet) => {
-    const distance = distanceFromHqInBlocks() * 264;
+    const distance = distanceFromHqInBlocks(feet) * 264;
     return distance;
 }
 
@@ -28,8 +28,8 @@ return differenceInFeet;
 
 const calculatesFarePrice = (start, end) => {
 
-    const distance = (start - end) * 264;
-    
+    //const distance = (start - end) * 264;
+    const distance = distanceTravelledInFeet(start, end)
     if (distance <= 400) {
     return 0;
     }
